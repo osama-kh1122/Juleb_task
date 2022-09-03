@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <template id="odoo_js_practices" name="odoo js practices" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/juleb_task/static/src/js/company_function_inherit.js"/>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

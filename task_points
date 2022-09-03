@@ -1,0 +1,16 @@
+Following are the steps that i followed completing this task:
+
+1:created a new company with no demo data installed
+2:created a new module using scaffold command
+3:installed the inventory module
+4:added a new operation type called return overriding the selection field of stock picking type
+5:whenever a new company is created its related return operation will be created as well(by overriding the create method of res.company)
+6:now when we switch between companies a JS function is executed ,,i have inerited that and from there i am calling a method in my custom model with company as parameter
+
+after that i have searched the return operation of that company and used a python built in library called translation() to translate return operation name
+
+7:we just pass the name and language as parameter and it translates it automatically
+
+ pip3 install googletrans==3.1.0a0(COmmand to install that library)
+ 
+ 
